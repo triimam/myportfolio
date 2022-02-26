@@ -24,3 +24,14 @@ Please contact me on [Linkedin](https://www.linkedin.com/in/triimamwicaksono)
 <img src="Correlation Analysis between Tesla, Bitcoin, and Dogecoin/heatmap.png" width="500">
 
 
+###  [Loan Status Classification](https://github.com/triimam/myportfolio/blob/main/Loan%20Status%20Classfication/Loan%20Status%20Classification.ipynb)
+* Gathering data from IBM
+* Comparing several classifications method (KNN, Decision Tree, SVM, Logistics Regression)
+
+Results:
+| Algorithm          | Jaccard | F1-score | LogLoss |
+| ------------------ | ------- | -------- | ------- |
+| KNN                | 0.72    | 0.73     | NA      |
+| Decision Tree      | 0.74    | 0.63     | NA      |
+| SVM                | 0.75    | 0.65     | NA      |
+| LogisticRegression | 0.72    | 0.65     | 0.58    |
