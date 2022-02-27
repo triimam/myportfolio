@@ -28,7 +28,27 @@ Please contact me on [Linkedin](https://www.linkedin.com/in/triimamwicaksono)
 * Gathering data from IBM
 * Comparing several classifications method (KNN, Decision Tree, SVM, Logistics Regression)
 
-Results:
+### About the Dataset
+This dataset is about past loans. The **Loan_train.csv** data set includes details of 346 customers whose loan are already paid off or defaulted. It includes following fields:
+
+| Field          | Description                                                                           |
+| -------------- | ------------------------------------------------------------------------------------- |
+| Loan_status    | Whether a loan is paid off on in collection                                           |
+| Principal      | Basic principal loan amount at the                                                    |
+| Terms          | Origination terms which can be weekly (7 days), biweekly, and monthly payoff schedule |
+| Effective_date | When the loan got originated and took effects                                         |
+| Due_date       | Since it’s one-time payoff schedule, each loan has one single due date                |
+| Age            | Age of applicant                                                                      |
+| Education      | Education of applicant                                                                |
+| Gender         | The gender of applicant                                                               |
+
+
+### Data Visualization
+<img src="Loan Status Classfication/Principal Distribution by Gender and Age.png" width="500">
+
+<img src="Loan Status Classfication/Principal Distribution by Gender and Principal.png" width="500">
+
+### Results:
 | Algorithm          | Jaccard | F1-score | LogLoss |
 | ------------------ | ------- | -------- | ------- |
 | KNN                | 0.72    | 0.73     | NA      |
